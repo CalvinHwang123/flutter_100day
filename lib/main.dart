@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_100day/pages/food_delivery_start_page.dart';
 import 'package:flutter_100day/pages/inspiration_page.dart';
 
 import 'pages/trip_page.dart';
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Nunito', // for trip_page.dart
       ),
       // home: const InspirationPage(),
-      home: const TripPage(),
+      // home: const TripPage(),
+      home: const FoodDeliveryStartPage(),
     );
   }
 }
